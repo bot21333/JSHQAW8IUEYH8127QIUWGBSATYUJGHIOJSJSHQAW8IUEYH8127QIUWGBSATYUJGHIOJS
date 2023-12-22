@@ -1,3 +1,5 @@
+local VERSION = "1.2"
+
 if not LPH_OBFUSCATED then
     local function r(...)
         return ...
