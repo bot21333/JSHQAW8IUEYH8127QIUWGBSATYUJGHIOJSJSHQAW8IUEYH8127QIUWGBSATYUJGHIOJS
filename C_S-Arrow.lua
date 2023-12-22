@@ -1,3 +1,12 @@
+if not LPH_OBFUSCATED then
+    local function r(...)
+        return ...
+    end
+    LPH_JIT_MAX = r
+    LPH_NO_VIRTUALIZE = r
+    LPH_JIT = r
+end
+
 -- SERVICES
 local Players = game:GetService("Players")
 local TS = game:GetService("TweenService")
